@@ -43,7 +43,7 @@ user_agents = [
 logo = r"""
 ╔══════════════════
 ║   Simple DoS by Kim
-║   V : 2.1.1
+║   V : 3.0.1
 ║   MADE BY GNDFR
 ║   Enjoy your DoS attack :)
 ╚══════════════════
