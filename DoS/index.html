@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UDP 로그 실시간 모니터링</title>
+    <link rel="stylesheet" href="/static/style.css"> </head>
+<body>
+    <h1>UDP 로그 실시간 모니터링</h1>
+    <div class="controls">
+        <button onclick="toggleDarkMode()">다크 모드 전환</button>
+        <button onclick="clearLogsDisplay()">로그 지우기</button>
+    </div>
+    <div id="logs-container">
+        <p class="loading-message">로그를 불러오는 중...</p>
+    </div>
+
+    <script src="/static/script.js"></script> </body>
+</html>
